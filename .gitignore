@@ -1,0 +1,32 @@
+# Secrets and local runtime state
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+.wrangler/
+dist/
+coverage/
+
+# Data, artifacts, and local reports
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.zip
+*.7z
+*.log
+data/raw/
+data/private/
+outputs/restricted/
+artifacts/
+logs/
+reports/generated/
+tmp/
+.tmp/
+__pycache__/
+.pytest_cache/
